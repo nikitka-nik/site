@@ -1,0 +1,33 @@
+/*.gallery{
+	position:absolute;
+	top:50%;
+	transform: translateY(-50%);
+	margin:0 50px;
+}
+
+.img{
+	transition: 0.5s all ease-in-out;
+} */
+
+*{
+	box-sizing:border-box;
+}
+
+.gallery{
+	borrder:1px solid #ccc;
+}
+
+.gallery img{
+	width:100%;
+	height:auto;
+}
+
+.des{
+	padding:15px;
+	text-align:center;
+}
+.responsive{
+	padding: 0 6px;
+	float: left;
+	width:25%;
+}
